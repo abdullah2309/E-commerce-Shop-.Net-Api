@@ -4,11 +4,16 @@ This project is a RESTful Web API for an e-commerce platform built using **ASP.N
 
 ---
 
-## 📸 Screenshots
-
-Coming soon...
-
----
 
 ## 📁 Folder Structure
+
+E-commerce-Shop-.Net-Api/
+├── E-commerce Shop Api/
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Data/
+│   ├── Program.cs
+│   └── appsettings.json
+├── E-commerce Shop Api.sln
+└── README.md
 
