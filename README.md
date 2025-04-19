@@ -33,14 +33,20 @@ E-commerce-Shop-.Net-Api/   <br>
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 API Endpoints table
 
-| Technology         | Description                        |
-|--------------------|------------------------------------|
-| .NET 6             | Backend framework                  |
-| Entity Framework   | ORM for database operations        |
-| SQL Server         | Database system                    |
-| Swagger (Swashbuckle) | API documentation generator     |
+| Resource      | Method | Endpoint                 | Description             |
+|---------------|--------|--------------------------|-------------------------|
+| Products      | GET    | `/api/products`          | Get all products        |
+| Products      | POST   | `/api/products`          | Add a new product       |
+| Products      | PUT    | `/api/products/{id}`     | Update a product        |
+| Products      | DELETE | `/api/products/{id}`     | Delete a product        |
+| Productssale  | GET    | `/api/productssale`      | Get all product sales   |
+| Productssale  | POST   | `/api/productssale`      | Add a new product sale  |
+| Productssale  | PUT    | `/api/productssale/{id}` | Update a product sale   |
+| Productssale  | DELETE | `/api/productssale/{id}` | Delete a product sale   |
+| Categories    | GET    | `/api/categories`        | Get all categories      |
+| Feedback      | POST   | `/api/feedbacks`         | Submit customer feedback|
 
 ---
 
