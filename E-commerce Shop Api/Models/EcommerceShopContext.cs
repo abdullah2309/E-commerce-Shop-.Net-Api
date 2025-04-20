@@ -111,4 +111,5 @@ public partial class EcommerceShopContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+    //
 }
