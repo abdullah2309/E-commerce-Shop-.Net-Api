@@ -10,7 +10,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EcommerceShopContext>(a => a.UseSqlServer(
-    "Server=DESKTOP-KHBGNKV\\SQLEXPRESS;Database=ecommerce_shop;Trusted_Connection=True; TrustServerCertificate=True"));
+"Server=DESKTOP-KHBGNKV\\SQLEXPRESS;Database=ecommerce_shop;Trusted_Connection=True; TrustServerCertificate=True"));
+
+builder.Services.AddCors(builder => builder.AddPolicy("allow",
+    a => a.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
 var app = builder.Build();
 
@@ -22,6 +25,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("allow");
 
 app.UseAuthorization();
 
