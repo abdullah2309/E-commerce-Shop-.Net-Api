@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace E_commerce_Shop_Api.Models;
 
-public partial class AddCategory
+public partial class AddCategory 
 {
     public int Id { get; set; }
 
