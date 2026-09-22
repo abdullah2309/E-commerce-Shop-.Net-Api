@@ -54,7 +54,7 @@ E-commerce-Shop-.Net-Api/   <br>
 
 ### ✅ Prerequisites
 
-- [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 - Visual Studio 2022 or Visual Studio Code
 
